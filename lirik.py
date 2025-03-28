@@ -4,11 +4,13 @@ import sys
 
 lyrics = [
     ("Di hahurangan ki", 0.1),
-    ("Ai hodo patikkoson au", 0.15),
-      
+    ("Ai hodo patikkoson au", 0.12),
+    ("Molo borngin lasni ari", 0.11),
+    ("Ingot do ho tu au", 0.11),
+    ("Mauliate ma inang", 0.15),        
 ]
 
-delays = [0, 3.0,]
+delays = [0, 3.0, 7.0, 10.0, 13.0, ]
 
 def animate_text(text, delay=0.1):
     for char in text:
