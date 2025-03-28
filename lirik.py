@@ -8,10 +8,11 @@ lyrics = [
     ("Molo borngin lasni ari", 0.11),
     ("Ingot do ho tu au", 0.11),
     ("Mauliate ma inang", 0.14),  
-    ("Di sude haholongan mi", 0.13),      
+    ("Di sude haholongan mi", 0.15),
+    ("Inanghu naburju na uli lagu", 0.16),     
 ]
 
-delays = [0, 3.0, 7.0, 10.0, 13.5, 15.0, ]
+delays = [0, 3.0, 7.0, 9.8, 13.4, 16.8, 21.0, ]
 
 def animate_text(text, delay=0.1):
     for char in text:
